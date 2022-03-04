@@ -1,9 +1,6 @@
 body{
   margin: 0px;
   text-align:center;
-}
-
-body{
   background-color: #a6eaff
 }
 
@@ -30,11 +27,11 @@ li {
 
 .res {
   font-family: verdana;
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   background-color: transparent;
-  /*display: block;
-  list-style-type: disc;*/
+  display: block;
+  list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
@@ -42,7 +39,6 @@ li {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
-  float: none;
 }
 
 @media only screen and (min-width: 1200px) {
