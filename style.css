@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+  text-align:center;
 }
 
 body{
@@ -15,7 +16,7 @@ p{
 
 li {
   display: inline;
-  float: left;
+  float: left; 
 }
 
 .reg {
@@ -32,15 +33,16 @@ li {
   font-size: 15px;
   position: relative;
   background-color: transparent;
-  display: block;
-  list-style-type: disc;
+  /*display: block;
+  list-style-type: disc;*/
   margin-top: 1em;
-  margin-bottom: 1 em;
+  margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 5px
+  border-radius: 5px;
+  float: none;
 }
 
 @media only screen and (min-width: 1200px) {
