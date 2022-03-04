@@ -13,10 +13,8 @@ function setup() {
   english2 = createButton("english");
   english2.position(windowWidth/2-200, windowHeight/2);
   english2.mousePressed(englishs);
-  let inp = createInput('');
-  inp.position(windowWidth, windowHeight);
-  inp.size(100);
-  inp.hide();
+
+  
 
 }
 
