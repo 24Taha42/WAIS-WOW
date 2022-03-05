@@ -47,8 +47,6 @@ function setup() {
   thiss.position(windowWidth/2 - 100, windowHeight/2+220);
   thiss.mousePressed(next);
   thiss.hide();
-
-
 }
 
 function draw() {
@@ -86,9 +84,6 @@ function draw() {
     c.html("c. " + answer[Q][2]);
     d.html("d. " + answer[Q][3]);
   }
-
-  
-
 }
 
 function maths(){
@@ -114,7 +109,6 @@ function cs(){
   choice = 3;
   check();
 }
-
 
 function ds(){
   choice = 4;
